@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;700&display=swap");
+
+/*? ==== Root ==== ?*/
+:root {
+  --bg-black-900: #f2f2fc;
+  --bg-black-100: #fdf9ff;
+  --bg-black-50: #e8dfec;
+  --text-black-900: #302e4d;
+  --text-black-700: #504e70;
+}
+body {
+  /* font-family: "DM Sans", sans-serif;
+  font-family: "Playfair Display", serif; */
+  /* font-family: "Poppins", sans-serif; */
+}
+
+/*? ==== Reset style ==== ?*/
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+::before,
+::after {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1100px;
+  width: 100%;
+
+  margin: auto;
+}
