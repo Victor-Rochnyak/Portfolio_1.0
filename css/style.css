@@ -80,10 +80,10 @@
   display: inline-block;
   position: relative;
 }
-.aside,
+/* .aside,
 .nav-toggler.open span {
   background-color: transparent;
-}
+} */
 .aside .nav-toggler.open span::before {
   transform: rotate(45deg);
   top: 0;
