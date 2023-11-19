@@ -20,6 +20,7 @@ function setActiveStyle(color) {
     }
   });
 }
+// dfsdf
 //  theme light and dark mode
 const dayNight = document.querySelector(".day-night");
 dayNight.addEventListener("click", () => {
